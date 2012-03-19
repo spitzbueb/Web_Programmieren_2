@@ -37,7 +37,7 @@
 	.list_actions {
 		font-size: x-small;
 		text-align: right;
-		padding-left: 1em;
+		padding-left; 1em;
 	}
 	
 	.list_line_even {
