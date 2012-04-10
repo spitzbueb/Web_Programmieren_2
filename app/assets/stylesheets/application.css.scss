@@ -12,9 +12,9 @@
  *= require_tree .
 */
 
-#banner{
+#banner {
 	background: #9c9;
-	padding: 10px;
+	padding: 35px;
 	border-bottom: 2px solid;
 	font: small-caps 40px/40px "Times New Roman", serif;
 	color: #282;
@@ -25,7 +25,7 @@
 	}
 }
 
-#notice{
+#notice {
 	color: #000 !important;
 	border: 2px solid red;
 	padding: 1em;
@@ -34,7 +34,7 @@
 	font: bold smaller sans-serif;
 }
 
-#columns{
+#columns {
 	background: #141;
 	
 	#main{
@@ -43,7 +43,7 @@
 		background: white;
 	}
 	
-	#side{
+	#side {
 		float: left;
 		padding: 1em 2em;
 		width: 13em;
@@ -57,7 +57,7 @@
 				
 				a{
 					color: #bfb;
-					font-size:small;
+					font-size: small;
 				}
 			}
 		}
