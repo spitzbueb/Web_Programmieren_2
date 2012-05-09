@@ -8,7 +8,7 @@ class Product < ActiveRecord::Base
 	validates :image_url,allow_blank:true,format:{
 		with: %r{\.(gif|png|jpg)$}i, message:'must be an URL for GIF, JPG or PNG'
 		}
-		
+	private
 	#Keine Line-Items referenzieren das Produkt
 	def ensure_not_by_any_line_item
 		if line_items.empty?
